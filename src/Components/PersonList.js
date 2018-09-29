@@ -21,6 +21,7 @@ class PersonList extends React.Component {
         <div className="personDetail">
           <p className="loading">{this.state.isLoading ? 'Loading...' : ''}</p>
           
+          <h2>USER DETAIL </h2>
           <div className={this.state.isLoading ? 'hidden': ''}>
             <h3>
               {this.state.personDetail.name}<br />
