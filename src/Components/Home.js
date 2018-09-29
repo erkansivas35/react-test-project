@@ -19,6 +19,7 @@ class Home extends React.Component {
     return (
       <div className="Home">
         <p className="loading">{this.state.isLoading ? 'Loading...' : ''}</p>
+        <h2>USER LIST </h2>
         <ul className={this.state.isLoading ? 'hidden': ''}>
           {this.state.persons.map(person => {
             return (

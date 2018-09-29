@@ -7,7 +7,6 @@ class Menu extends React.Component {
       <div className="Menu">
         <Link to="/">Home Page</Link>
         <Link to="/about">About Page</Link>
-        <hr />
       </div>
     )
   }
