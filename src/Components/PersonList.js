@@ -12,8 +12,7 @@ class PersonList extends React.Component {
     axios.get(`https://jsonplaceholder.typicode.com/users/${pathname}`)
       .then(res => {
         const personDetail = res.data
-        this.setState({ personDetail })
-        this.setState({ isLoading: false })
+        this.setState({ personDetail, isLoading: false })
       })
   }
   render() {
